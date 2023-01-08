@@ -21,7 +21,7 @@ set.protocolExtensionFunction()
 dictionary.protocolExtensionFunction()
 ```
 
-**Protocol Extension:**
+
 ```
 protocol ExtendedProtocol {
     func extendedFunction() -> [String]
