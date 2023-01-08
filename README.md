@@ -1,8 +1,8 @@
 # ProtocolExtension
 
 
-**Protocol Extension**
-
+**Protocol Extension:**
+```
 let array = ["Ahmet", "Alex", "Marcus"]
 let set = Set(["Alli", "Harry", "James"])
 let dictionary = ["Ahmet": 1, "Ali": 2, "Alex": 3]
@@ -19,10 +19,10 @@ extension Collection {
 array.protocolExtensionFunction()
 set.protocolExtensionFunction()
 dictionary.protocolExtensionFunction()
-
+```
 
 **Protocol Extension:**
-
+```
 protocol ExtendedProtocol {
     func extendedFunction() -> [String]
 }
@@ -32,3 +32,4 @@ extension ExtendedProtocol {
         return ["Ahmet"]
     }
 }
+```
